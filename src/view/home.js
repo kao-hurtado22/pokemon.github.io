@@ -17,7 +17,7 @@ const Home = () => {
             </div>
 
             {/* TITULO */}
-            <h1>PokéInfo</h1>
+            <h1 className='pokeinfo'>PokéInfo</h1>
 
             {/* CARDS */}
             <div className='container'>
