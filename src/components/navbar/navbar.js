@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* IMPORT STYLE */
-/* import Pokemon from './public/media/Logo-Pokemon.png'; */
 import './navbar.scss';
 
 const Navbar = () => {
@@ -37,7 +36,7 @@ const Navbar = () => {
             </li>
           </ul>
           <a className='poke-img'>
-          <img className='charmander' src="https://c.tenor.com/0WkmuOC_W00AAAAi/waving-pikachu.gif" alt="" width="85" height="68" />
+          <img className='poke-logo' src="https://images.wikidexcdn.net/mwuploads/esssbwiki/7/77/latest/20111028181540/TituloUniversoPok%C3%A9mon.png" alt="" width="210" height="68" />
             <img className='charmander' src="https://www.pngmart.com/files/13/Charmander-PNG-HD.png" alt="" width="65" height="68" />
             <img className='bulbasaur' src="https://www.pngmart.com/files/11/Bulbasaur-PNG-Transparent-Image.png" alt="" width="68" height="68" />
             <img className='squirtle' src="https://www.pngplay.com/wp-content/uploads/12/Squirtle-Pokemon-Download-Free-PNG-Clip-Art.png" alt="" width="65" height="70" />

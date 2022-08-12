@@ -2,6 +2,7 @@ import React from 'react';
 
 /* IMPORT COMPONENTS */
 import Navbar from '../components/navbar/navbar';
+import Footer from '../components/footer/footer';
 
 /* IMPORT STYLE */
 import './home.scss';
@@ -12,22 +13,11 @@ const Home = () => {
             <Navbar />
             {/* BANNER */}
             <div className='container'>
-                <div className="showcase">
-                    {/* <h2 className="">Big New Today</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam placeat,
-                        veniam quis fugiat illo, ipsa commodi totam inventore ea architecto, dicta
-                        repudiandae ipsam soluta necessitatibus ex facilis voluptatibus quaerat
-                        autem!
-                    </p>
-                    <a className="btn" href="">
-                        Read More <i className="fas fa-angle-double-right" />
-                    </a> */}
-                </div>
+                <div className="showcase"></div>
             </div>
+
             {/* TITULO */}
             <h1>PokéInfo</h1>
-
 
             {/* CARDS */}
             <div className='container'>
@@ -102,6 +92,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };
