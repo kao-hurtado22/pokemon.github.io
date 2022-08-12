@@ -1,0 +1,27 @@
+nav{
+    background-color: black;
+}
+
+.nav-item {
+   font-family: var(--font-poppins);
+   font-weight: bold;
+    margin: 5px;
+    font-size: 20px;
+}
+.btn{
+    color: white;
+    background: grey; 
+    border:2px solid white;
+}
+.poke-img{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+   
+}
+.charmander{
+    transform: scaleX(-1);
+}
+img .bulbasaur{
+    margin: 20px;
+}
